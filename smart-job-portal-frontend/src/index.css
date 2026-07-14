@@ -1,0 +1,80 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hero Section */
+
+.hero {
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 20px;
+  color: gray;
+}
+
+/* Buttons */
+
+.btn-primary {
+  padding: 10px 25px;
+  font-size: 18px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #212529;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+
+  .hero h1 {
+    font-size: 35px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+}
+.card:hover{
+    transform: translateY(-8px);
+    transition:0.3s;
+    box-shadow:0px 12px 30px rgba(0,0,0,0.15);
+}
+
+.badge{
+    font-size:14px;
+}
+
+.card-title{
+    font-weight:bold;
+}
